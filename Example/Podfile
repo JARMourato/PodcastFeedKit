@@ -1,0 +1,6 @@
+use_frameworks!
+target 'PodcastFeedKit_Tests' do
+  pod 'PodcastFeedKit', :path => '../'
+  
+  
+end
