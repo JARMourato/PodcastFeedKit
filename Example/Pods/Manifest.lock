@@ -1,0 +1,16 @@
+PODS:
+  - PodcastFeedKit (0.1.0)
+
+DEPENDENCIES:
+  - PodcastFeedKit (from `../`)
+
+EXTERNAL SOURCES:
+  PodcastFeedKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PodcastFeedKit: 9b062577ad92a545024c6be027d1e06b85a6b915
+
+PODFILE CHECKSUM: b762fde21ee39fb2dd0a59aec952e30c4c80830d
+
+COCOAPODS: 1.1.1

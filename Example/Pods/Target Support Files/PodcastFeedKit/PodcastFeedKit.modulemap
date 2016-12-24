@@ -1,0 +1,6 @@
+framework module PodcastFeedKit {
+  umbrella header "PodcastFeedKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
