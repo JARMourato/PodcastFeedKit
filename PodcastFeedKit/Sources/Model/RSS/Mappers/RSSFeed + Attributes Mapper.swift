@@ -92,6 +92,12 @@ extension RSSFeed {
             }
             
             self.items?.last?.categories?.append(RSSFeedItemCategory(attributes: attributeDict))
+        
+        case .RSSChannelItemDuration:
+            
+            if self.items?.last?.duration == nil {
+                self.items?.last?.duration = RSSFeedItemDuration(attributes: attributeDict)
+            }
             
         case .RSSChannelItemEnclosure:
             

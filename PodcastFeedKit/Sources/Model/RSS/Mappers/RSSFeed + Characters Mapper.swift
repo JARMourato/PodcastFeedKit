@@ -108,7 +108,7 @@ extension RSSFeed {
         case .RSSChannelItemGUID:                         self.items?.last?.guid?.value                     = self.items?.last?.guid?.value?.appending(string) ?? string
         case .RSSChannelItemPubDate:                      self.items?.last?.pubDate                         = string.dateFromSpec(.rfc822)
         case .RSSChannelItemSource:                       self.items?.last?.source?.value                   = self.items?.last?.source?.value?.appending(string) ?? string
-            
+        case .RSSChannelItemDuration:   self.items?.last?.duration?.value = self.items?.last?.duration?.value?.appending(string) ?? string
             // Namespace - Content
             
         case .RSSChannelItemContentEncoded:               self.items?.last?.content?.contentEncoded         = self.items?.last?.content?.contentEncoded?.appending(string) ?? string

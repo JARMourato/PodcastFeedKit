@@ -1,9 +1,9 @@
 {
   "name": "PodcastFeedKit",
   "version": "0.1.0",
-  "summary": "A short description of PodcastFeedKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/PodcastFeedKit",
+  "summary": "App for reading RSS and Atom podcast feeds",
+  "description": "SUPER LONG DESCRIPTION GOES HERE.\nSUPER LONG DESCRIPTION GOES HERE.\n\nSUPER LONG DESCRIPTION GOES HERE.",
+  "homepage": "https://github.com/spencermamer/PodcastFeedKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "Spencer B. Mamer": "spencermamer@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/PodcastFeedKit.git",
+    "git": "https://github.com/spencermamer/PodcastFeedKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "PodcastFeedKit/Classes/**/*"
+  "source_files": "PodcastFeedKit/Sources/**/*"
 }

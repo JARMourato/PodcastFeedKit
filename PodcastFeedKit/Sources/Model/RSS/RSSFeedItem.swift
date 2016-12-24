@@ -67,6 +67,12 @@ open class RSSFeedItem {
      */
     open var description: String?
     
+    
+    /// For podcasts, the duration of the podcast episode as a string, as "HH:MM:SS", "MM:SS", or "SS"
+    /// 
+    /// Example: "55:00", "1:00:00"
+    open var duration: RSSFeedItemDuration?
+    
     /**
      
      Email address of the author of the item.
